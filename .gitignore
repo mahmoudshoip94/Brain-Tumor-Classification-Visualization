@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+models/
+*.h5
+*.keras
+*.pkl
+
+.idea/
+.vscode/
