@@ -95,7 +95,7 @@ Grad-CAM visualization highlights the regions that contributed most to the model
 </p>
 
 <p align="center">
-  <img src="figs/download.png" width="900">
+  <img src="figs/cm_multi.png" width="900">
 </p>
 
 ---
