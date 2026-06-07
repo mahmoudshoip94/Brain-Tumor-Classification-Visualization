@@ -94,6 +94,10 @@ Grad-CAM visualization highlights the regions that contributed most to the model
   <img src="figs/cm_binary.png" width="700">
 </p>
 
+<p align="center">
+  <img src="figs/download.png" width="900">
+</p>
+
 ---
 
 ## 🖥️ Interactive Dashboard
@@ -107,9 +111,6 @@ The Streamlit application provides:
 - Tumor Analysis Dashboard
 - Interactive User Interface
 
-<p align="center">
-  <img src="figs/download.png" width="900">
-</p>
 
 ---
 
