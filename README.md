@@ -289,6 +289,12 @@ The Streamlit application provides:
 * Tumor Analysis Dashboard
 * Interactive User Interface
 
+<p align="center">
+  <img src="figs/streamlit_classification_visualization.jpeg" width="48%">
+  <img src="figs/streamlit_confidince.jpeg" width="48%">
+</p>
+
+
 ---
 
 # 📂 Project Structure
