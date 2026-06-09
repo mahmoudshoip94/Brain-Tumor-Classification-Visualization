@@ -400,13 +400,10 @@ The work includes a comparative study against the state-of-the-art RDXNet archit
 
 * Mahmoud Shoaib
 * Malak Abd Al-Hamid
-* Abrar Samir
+* [Abrar Samir](https://github.com/samirabrar320-source)
 * Salwa Hesham
 * Manal Hany
 
-Supervisor:
-
-**Eng. Mohamed Hemdan**
 
 ---
 
