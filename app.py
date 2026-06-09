@@ -9,6 +9,8 @@ import os
 import pickle
 import json
 import time
+from huggingface_hub import hf_hub_download
+from tensorflow.keras.models import load_model
 
 # ------------------------------
 # إعدادات الصفحة
@@ -351,11 +353,18 @@ def load_models():
         'dice_coefficient': lambda y_true, y_pred: 0.0
     }
 
-    binary_path = "models/binary_model_final.h5"
-    multi_path = "models/multi_model.h5"
+    binary_model_path = hf_hub_download(
+    repo_id="mahmoudshoip94/brain-tumor-classification-models",
+    filename="binary_model_final.h5"
+    )
 
-    binary_model = tf.keras.models.load_model(binary_path, custom_objects=custom_objs, compile=False)
-    multi_model = tf.keras.models.load_model(multi_path, custom_objects=custom_objs, compile=False)
+    multi_model_path = hf_hub_download(
+        repo_id="mahmoudshoip94/brain-tumor-classification-models",
+        filename="multi_model.h5"
+    )
+
+    binary_model = load_model(binary_model_path)
+    multi_model = load_model(multi_model_path)
 
     return binary_model, multi_model
 
