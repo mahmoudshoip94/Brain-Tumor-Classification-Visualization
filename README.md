@@ -322,7 +322,7 @@ Brain-Tumor-Classification-Visualization
     ├── Pituitary MRI
     └── No Tumor MRI
 ```
-
+---
 ---
 
 # 🛠️ Installation
