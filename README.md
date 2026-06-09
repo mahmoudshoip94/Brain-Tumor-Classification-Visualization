@@ -398,7 +398,7 @@ The work includes a comparative study against the state-of-the-art RDXNet archit
 
 # 👥 Team
 
-* Mahmoud Shoaib
+* [Mahmoud Shoaib](https://github.com/mahmoudshoip94)
 * Malak Abd Al-Hamid
 * [Abrar Samir](https://github.com/samirabrar320-source)
 * Salwa Hesham
